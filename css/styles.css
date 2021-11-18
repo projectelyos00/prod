@@ -182,7 +182,6 @@ button {
 
 .column {
     float: left;
-    margin-bottom: 16px;
     padding: 0;
 
 }
@@ -191,8 +190,8 @@ button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
     background-color: #474e5d;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container {

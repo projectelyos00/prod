@@ -65,23 +65,32 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #111;
-  }
+}
+
+/* About us */
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
 
 
 /* Product.html  */
@@ -167,6 +176,60 @@ button {
 
 .addprod {
     background-color: red;
+}
+
+/* About Us */
+
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 0;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: #474e5d;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.quote{
+    text-align: justify;
+}
+
+.name{
+    color: white;
+}
+
+.aboutusimg{
+    border-radius: 10px;
+    width: 200px;
+    height:200px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
 }
 
 @media(max-width: 1000px) {
